@@ -1,0 +1,38 @@
+python_version = "5.3"
+entry = input("hello, welcome to my calculator, do  you want to start? (y/n)")
+if entry == "y":
+    print("great! lets get started, whats your name?")
+    name = input("name:")
+    print("your name is " + name)
+    print("whats your age?")
+    age = input("age:")
+
+function1 = input("select function (calculator, name count):")
+if function1 == "name count":
+   name_count = input("write your name")
+   print(name_count.index)
+if function1 == "calculator":
+    print("loading calculator please wait")
+    num1 = float(input("select your first number"))
+    print(num1)
+    operator = input("select operator (-, +, :) ")
+    num2 = float(input("select your second number"))
+    print(num2)
+    
+    #operator = input("select operator (-, +, :) ")
+    if operator == "-":
+        result = num1 - num2
+    elif operator == "+":
+        result = num1 + num2
+    elif operator == ":":
+        result = num1 / num2
+
+    print(result)
+
+credits = input("do you want to see the credits? (y/n) ")
+creator = "kamil"
+python_ver = "5.3"
+if credits == "y":
+    print("made by " +creator + " thanks for trying :)")
+    print(python_ver)
+    print("have a great day")
