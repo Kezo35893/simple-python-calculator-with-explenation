@@ -22,7 +22,7 @@ if startyn == "y":                                            #if statement that
     print(result)                                             #all variables here are called result and are as it says, they are the result of the calculation
 
     made_by = "kamil"                                         #simple credit list
-    python_version = " python version 5.3"                    
+    python_version = " python version 3.10"                    
     credits = input("do you want to see the credits? (y/n)")
     if credits == "y":
         print(made_by + python_version)
