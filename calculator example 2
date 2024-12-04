@@ -1,4 +1,4 @@
-python_version = "5.3"
+python_version = "3.10"
 entry = input("hello, welcome to my calculator, do  you want to start? (y/n)")
 if entry == "y":
     print("great! lets get started, whats your name?")
@@ -31,7 +31,7 @@ if function1 == "calculator":
 
 credits = input("do you want to see the credits? (y/n) ")
 creator = "kamil"
-python_ver = "5.3"
+python_ver = "3.10"
 if credits == "y":
     print("made by " +creator + " thanks for trying :)")
     print(python_ver)
